@@ -9,5 +9,5 @@ content_source: thoughts-main.md
 {% if source_file %}
   {{ source_file.content }}
 {% else %}
-  <p>Coming soon.</p>
+  <p></p>
 {% endif %}

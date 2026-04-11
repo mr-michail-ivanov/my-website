@@ -9,5 +9,5 @@ content_source: contact-info.md
 {% if source_file %}
   {{ source_file.content }}
 {% else %}
-  <p>Contact details coming soon.</p>
+  <p>Under construction.</p>
 {% endif %}

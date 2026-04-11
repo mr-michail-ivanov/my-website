@@ -9,5 +9,5 @@ content_source: about-me.md
 {% if source_file %}
   {{ source_file.content }}
 {% else %}
-  <p>Content is being updated. Please check back soon.</p>
+  <p>Under construction.</p>
 {% endif %}

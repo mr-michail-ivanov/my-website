@@ -8,5 +8,5 @@ title: Home
 {% if source_file %}
   {{ source_file.content }}
 {% else %}
-  Welcome.
+
 {% endif %}

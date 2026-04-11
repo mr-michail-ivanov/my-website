@@ -9,5 +9,5 @@ content_source: publications-list.md
 {% if source_file %}
   {{ source_file.content }}
 {% else %}
-  <p>List of publications is being compiled.</p>
+  <p>Under construction.</p>
 {% endif %}
