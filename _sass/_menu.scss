@@ -20,17 +20,20 @@
 }
 
 .site-navigation li {
-  list-style-type: none; /* Secondary backup to ensure bullets are gone */
+  list-style-type: none; 
   margin: 0;
   padding: 0;
   font-family: 'Young Serif', serif;
-  font-weight: 700;      /* Targets YoungSerif-Bold.woff2 */
+  font-weight: 700;      
   font-variant: normal;
-  font-size: .875em;
+  
+  /* Increased from .875em to 1.25em */
+  font-size: 1.25em; 
 }
 
 .site-navigation a {
   display: block;
+  /* Adjust the 1.5rem (horizontal) if the items start to wrap to a new line */
   padding: .25em 1.5rem; 
   text-decoration: none;
   transition: opacity .125s ease-in-out;
