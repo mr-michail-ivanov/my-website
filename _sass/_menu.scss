@@ -39,3 +39,16 @@
     opacity: 1;
   }
 }
+.site-signature {
+  font-family: 'Young Serif', serif;
+  font-style: italic;
+  font-weight: 400;       /* This targets the RegularItalic file */
+  font-size: .875em;      /* Same size as your menu headings */
+  text-align: center;
+  opacity: 0.3;           /* 30% transparency */
+  margin: 6rem 0 3rem;    /* Generous gap above, some space below */
+  color: $text-color;
+  width: 100%;
+  display: block;
+  letter-spacing: 0.05em; /* Optional: adds a tiny bit of air to the letters */
+}
