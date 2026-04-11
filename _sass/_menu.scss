@@ -19,7 +19,7 @@
 .site-navigation li {
   list-style: none;
   font-size: .875em;
-  font-variant: small-caps;
+  font-variant: normal; /* <-- Change this from small-caps to normal */
   margin: 0;
   &.active a {
     text-decoration: underline;
