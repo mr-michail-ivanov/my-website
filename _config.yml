@@ -36,3 +36,4 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+hide_credits: true
