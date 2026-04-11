@@ -13,7 +13,9 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* Change 'center' to 'space-between' to push items to the edges */
+  justify-content: space-between; 
+  width: 100%; /* Ensures the list uses the full width of its container */
 }
 
 .site-navigation li {
@@ -28,7 +30,8 @@
 
 .site-navigation a {
   display: block;
-  padding: .25em .5em;
+  /* Increase the second number (horizontal padding) to space them out more */
+  padding: .25em 1.5rem; 
   text-decoration: none;
   transition: opacity .125s ease-in-out;
   &:hover,
