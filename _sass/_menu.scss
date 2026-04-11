@@ -40,20 +40,14 @@
   }
 }
 .site-signature {
+  flex-shrink: 0;         /* Prevents the signature from squishing */
   font-family: 'Young Serif', serif;
   font-style: italic;
-  font-weight: 400;       /* Targets RegularItalic.woff2 */
-  
-  /* Increased size: .875em was the menu size, 1.25em is ~2 sizes larger */
-  font-size: 1.25em;      
-  
+  font-weight: 400;
+  font-size: 1.5em;       
   text-align: center;
-  opacity: 0.3;           /* 30% transparency */
-  
-  /* Increased top margin (12rem) to push it to the bottom-center */
-  /* This creates a large gap between your content and the name */
-  margin: 12rem 0 4rem;    
-  
+  opacity: 0.3;           
+  margin: 4rem 0 3rem;    /* A clean, consistent gap */
   color: $text-color;
   width: 100%;
   display: block;
