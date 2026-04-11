@@ -19,13 +19,12 @@
 }
 
 .site-navigation li {
-  list-style: none;
+  /* ... keep your other settings like list-style ... */
+  font-family: 'Young Serif', serif;
+  font-weight: 700;  /* This pulls the Bold version */
+  font-variant: normal;
   font-size: .875em;
-  font-variant: normal; /* <-- Change this from small-caps to normal */
   margin: 0;
-  &.active a {
-    text-decoration: underline;
-  }
 }
 
 .site-navigation a {

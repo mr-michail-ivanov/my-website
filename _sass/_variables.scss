@@ -3,6 +3,7 @@ $highlight:           lighten($brand-color, 35%);
 $text-color:          #4d4c4c;
 $muted-text-color:    #4d4c4c;
 $font-family: "Young Serif", serif;
+$font-weight: 400; // This ensures the body text uses Regular
 
 $on-bigphone:         375px;
 $on-tablet:           768px;
