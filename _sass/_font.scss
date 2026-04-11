@@ -3,13 +3,13 @@
   font-family: 'Young Serif';
   font-style: normal;
   font-weight: 400;
-  src: url('#{$asset_url}/fonts/YoungSerif-Regular.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Young Serif';
   font-style: italic;
   font-weight: 400;
-  src: url('#{$asset_url}/fonts/YoungSerif-RegularItalic.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-RegularItalic.woff2') format('woff2');
 }
 
 /* --- Bold & Bold Italic (Weight: 700) --- */
@@ -17,13 +17,13 @@
   font-family: 'Young Serif';
   font-style: normal;
   font-weight: 700;
-  src: url('#{$asset_url}/fonts/YoungSerif-Bold.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Young Serif';
   font-style: italic;
   font-weight: 700;
-  src: url('#{$asset_url}/fonts/YoungSerif-BoldItalic.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-BoldItalic.woff2') format('woff2');
 }
 
 /* --- Light (Weight: 300) --- */
@@ -31,7 +31,7 @@
   font-family: 'Young Serif';
   font-style: normal;
   font-weight: 300;
-  src: url('#{$asset_url}/fonts/YoungSerif-Light.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-Light.woff2') format('woff2');
 }
 
 /* --- Medium & Medium Italic (Weight: 500) --- */
@@ -39,11 +39,11 @@
   font-family: 'Young Serif';
   font-style: normal;
   font-weight: 500;
-  src: url('#{$asset_url}/fonts/YoungSerif-Medium.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-Medium.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Young Serif';
   font-style: italic;
   font-weight: 500;
-  src: url('#{$asset_url}/fonts/YoungSerif-MediumItalic.woff2') format('woff2');
+  src: url('../fonts/YoungSerif-MediumItalic.woff2') format('woff2');
 }

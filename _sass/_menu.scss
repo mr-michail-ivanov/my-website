@@ -11,25 +11,26 @@
 
 .site-navigation ul {
   margin: 0;
+  padding: 0;           /* Removes default list indentation */
+  list-style: none;     /* Removes the bullet points */
   display: flex;
   flex-wrap: wrap;
-  /* Change 'center' to 'space-between' to push items to the edges */
   justify-content: space-between; 
-  width: 100%; /* Ensures the list uses the full width of its container */
+  width: 100%; 
 }
 
 .site-navigation li {
-  /* ... keep your other settings like list-style ... */
+  list-style-type: none; /* Secondary backup to ensure bullets are gone */
+  margin: 0;
+  padding: 0;
   font-family: 'Young Serif', serif;
-  font-weight: 700;  /* This pulls the Bold version */
+  font-weight: 700;      /* Targets YoungSerif-Bold.woff2 */
   font-variant: normal;
   font-size: .875em;
-  margin: 0;
 }
 
 .site-navigation a {
   display: block;
-  /* Increase the second number (horizontal padding) to space them out more */
   padding: .25em 1.5rem; 
   text-decoration: none;
   transition: opacity .125s ease-in-out;
