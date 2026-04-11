@@ -42,13 +42,20 @@
 .site-signature {
   font-family: 'Young Serif', serif;
   font-style: italic;
-  font-weight: 400;       /* This targets the RegularItalic file */
-  font-size: .875em;      /* Same size as your menu headings */
+  font-weight: 400;       /* Targets RegularItalic.woff2 */
+  
+  /* Increased size: .875em was the menu size, 1.25em is ~2 sizes larger */
+  font-size: 1.25em;      
+  
   text-align: center;
   opacity: 0.3;           /* 30% transparency */
-  margin: 6rem 0 3rem;    /* Generous gap above, some space below */
+  
+  /* Increased top margin (12rem) to push it to the bottom-center */
+  /* This creates a large gap between your content and the name */
+  margin: 12rem 0 4rem;    
+  
   color: $text-color;
   width: 100%;
   display: block;
-  letter-spacing: 0.05em; /* Optional: adds a tiny bit of air to the letters */
+  letter-spacing: 0.05em; 
 }
