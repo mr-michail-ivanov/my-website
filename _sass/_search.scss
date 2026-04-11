@@ -1,4 +1,12 @@
 #search {
+  display: none; /* This line hides the entire search container */
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+/* ... the rest of your code stays the same ... */
+#search {
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
