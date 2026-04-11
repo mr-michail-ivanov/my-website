@@ -40,14 +40,17 @@
   }
 }
 .site-signature {
-  flex-shrink: 0;         /* Prevents the signature from squishing */
+  flex-shrink: 0;         /* Ensures the signature doesn't squish */
   font-family: 'Young Serif', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 1.5em;       
+  
+  /* Adjusted size: 1.25em is the middle ground between the menu and the previous size */
+  font-size: 1.25em;      
+  
   text-align: center;
   opacity: 0.3;           
-  margin: 4rem 0 3rem;    /* A clean, consistent gap */
+  margin: 4rem 0 3rem;    
   color: $text-color;
   width: 100%;
   display: block;
