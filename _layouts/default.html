@@ -21,7 +21,13 @@
   </head>
   <body>
 
-    {{ content }}
+    <header class="site-masthead">
+      {% include menu.html %}
+    </header>
+
+    <main class="home" id="main" role="main" aria-label="Content">
+      {{ content }}
+    </main>
 
     {% unless site.hide_search %}
       {% include search.html %}
