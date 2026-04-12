@@ -99,11 +99,12 @@ a:hover {
     opacity: 0.6;
   }
 }
-/* Ensure line breaks from Obsidian/Markdown are respected */
+/* Remove extra spacing from manual line breaks */
 .home br {
-  display: block;
+  display: block; /* Ensures it acts as a proper line break */
   content: "";
-  margin-top: 0.5rem; /* This gives your DOI lines a little breathing room */
+  margin-top: 0;   /* Removed the margin to tighten the gap */
+  margin-bottom: 0;
 }
 
 /* Ensure distinct gaps for paragraphs */
