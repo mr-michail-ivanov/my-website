@@ -33,13 +33,21 @@
 
 .site-navigation a {
   display: block;
-  /* Adjust the 1.5rem (horizontal) if the items start to wrap to a new line */
   padding: .25em 1.5rem; 
   text-decoration: none;
+  /* Use the variable $text-color to keep it consistent with the rest of the site */
+  color: $text-color; 
   transition: opacity .125s ease-in-out;
+
+  /* This ensures the color stays the same even after being clicked */
+  &:visited {
+    color: $text-color;
+  }
+
   &:hover,
   &:focus {
     opacity: 1;
+    color: $text-color; /* Keeps it from changing color on hover too */
   }
 }
 .site-signature {

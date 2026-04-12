@@ -45,3 +45,12 @@ hr {
   border: none;
   visibility: hidden;
 }
+/* Global link reset to prevent purple visited links across the whole site */
+a, a:visited {
+  color: $text-color;
+  text-decoration: none; /* Keeps it clean; you can change this to underline if you prefer */
+}
+
+a:hover {
+  opacity: 0.7; /* Gives a subtle hint that it's clickable */
+}
