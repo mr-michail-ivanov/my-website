@@ -54,3 +54,19 @@ a, a:visited {
 a:hover {
   opacity: 0.7; /* Gives a subtle hint that it's clickable */
 }
+/* Style links within the Obsidian content area */
+.home a {
+  text-decoration: underline;
+  text-underline-offset: 2px; /* Adds a tiny bit of space between the text and the line */
+  transition: opacity 0.2s ease;
+
+  /* Ensures they don't turn purple after clicking */
+  &:visited {
+    color: $text-color;
+  }
+
+  /* Subtly fades the link when you hover over it */
+  &:hover {
+    opacity: 0.6;
+  }
+}
