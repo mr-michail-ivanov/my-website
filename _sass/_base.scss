@@ -111,3 +111,16 @@ a:hover {
 .home p {
   margin-bottom: 1.2rem; /* This makes the double-enter gap larger than the single-line gap */
 }
+/* Force Markdown italics to use the Weight 400 Italic font file */
+em, i {
+  font-family: 'Young Serif', serif;
+  font-style: italic;
+  font-weight: 400; /* This matches the YoungSerif-RegularItalic mapping */
+}
+
+/* Optional: Ensure bold-italics also work if you use ***triple asterisks*** */
+strong em, em strong {
+  font-family: 'Young Serif', serif;
+  font-style: italic;
+  font-weight: 700; /* This matches the YoungSerif-BoldItalic mapping */
+}
