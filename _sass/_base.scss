@@ -27,47 +27,39 @@ body {
 
 /* --- Keep the rest of your styles as they are --- */
 
-/* Heading Styles - Updated for Left Alignment and Subtle Scaling */
+/* Heading Styles - Left Aligned, Subtle Scaling, and Tightened Spacing */
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  line-height: 1.1;      /* Tighter line spacing for multi-line headings */
+  margin-top: 1.5rem;    /* Standardizes the gap above a heading */
+  margin-bottom: 0.5rem; /* Standardizes the gap below a heading */
+}
 
 h1 {
-  font-size: 2.25em;    /* Reduced from 3em */
-  margin: .5em 0;
-  text-align: left;
+  font-size: 2.25em;
+  margin-top: 0.5rem;    /* h1 at the top of a page needs less air above it */
 }
 
-h2 {
-  font-size: 1.75em;    /* Reduced from 2em */
-  margin: 1em 0;
-  text-align: left;     /* Changed from center */
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.35em; font-style: italic; }
+h5 { font-size: 1.2em; font-style: italic; }
+h6 { font-size: 1.1em; font-style: italic; }
+
+/* Standardize spacing for Body Text */
+p, ul, ol, blockquote {
+  margin-top: 0;         /* Prevents double-spacing when following a heading */
+  margin-bottom: 0.5rem; /* Matches the heading's bottom margin exactly */
 }
 
-h3 {
-  font-size: 1.5em;    /* Kept at your preferred size */
-  margin: 1.3333em 0;
-  text-align: left;     /* Changed from center */
+/* Ensure images follow the same rhythm */
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;    /* Centers the image with consistent vertical gaps */
 }
-
-h4 {
-  font-size: 1.35em;    /* Nudged down to be just above body text */
-  font-style: italic;
-  margin: 1.5em 0;
-  text-align: left;     /* Changed from center */
-}
-
-h5 {
-  font-size: 1.2em;     /* Very subtle difference */
-  font-style: italic;
-  margin: 1.5em 0;
-  text-align: left;     /* Changed from center */
-}
-
-h6 {
-  font-size: 1.1em;     /* Almost the same as body text */
-  font-style: italic;
-  margin: 1.5em 0;
-  text-align: left;     /* Changed from center */
-}
-
 /* ... (skipping ahead to the bottom) ... */
 
 .site-credits {
