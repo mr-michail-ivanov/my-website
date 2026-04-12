@@ -27,9 +27,46 @@ body {
 
 /* --- Keep the rest of your styles as they are --- */
 
-h1 { font-size: 3em; margin: .5em auto; }
-h2 { font-size: 2em; margin: 1em auto; text-align: center; }
-h3 { font-size: 1.5em; margin: 1.3333em auto; text-align: center; }
+/* Heading Styles - Updated for Left Alignment and Subtle Scaling */
+
+h1 {
+  font-size: 2.25em;    /* Reduced from 3em */
+  margin: .5em 0;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.75em;    /* Reduced from 2em */
+  margin: 1em 0;
+  text-align: left;     /* Changed from center */
+}
+
+h3 {
+  font-size: 1.5em;    /* Kept at your preferred size */
+  margin: 1.3333em 0;
+  text-align: left;     /* Changed from center */
+}
+
+h4 {
+  font-size: 1.35em;    /* Nudged down to be just above body text */
+  font-style: italic;
+  margin: 1.5em 0;
+  text-align: left;     /* Changed from center */
+}
+
+h5 {
+  font-size: 1.2em;     /* Very subtle difference */
+  font-style: italic;
+  margin: 1.5em 0;
+  text-align: left;     /* Changed from center */
+}
+
+h6 {
+  font-size: 1.1em;     /* Almost the same as body text */
+  font-style: italic;
+  margin: 1.5em 0;
+  text-align: left;     /* Changed from center */
+}
 
 /* ... (skipping ahead to the bottom) ... */
 
