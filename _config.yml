@@ -17,6 +17,7 @@ url: "https://michailsivanov.com"
 # icon line removed from here
 twitter_username: 
 github_username:  
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
