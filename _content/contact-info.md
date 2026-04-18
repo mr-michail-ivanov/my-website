@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Contact
 ...
 ---
 michail.ivanov@adelaide.edu.au

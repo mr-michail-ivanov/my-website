@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Publications
 ...
 ---
 <img src="{{ '/assets/images/miipencilorange.png' | relative_url }}" class="snapshot snap-left">
