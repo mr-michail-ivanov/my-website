@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ...
 ---
-<img src="{{ '/assets/images/miipencilorange.png' | relative_url }}" class="snapshot snap-left">
+<img src="{{ '/assets/images/miipencilorange.png' | relative_url }}" class="snapshot snap-left" style="max-width: 250px;">
 # Academic
 ## Journal Articles
 ### 2026

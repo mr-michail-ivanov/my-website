@@ -9,4 +9,4 @@ I've several exciting projects in the works, involving filmic and literary outpu
 
 I take photographs on occasion - you'll find some on this website.  
 I doodle too - there's one below!
-<img src="{{ '/assets/images/pointorange.gif' | relative_url }}" class="snapshot snap-right">
+<img src="{{ '/assets/images/pointorange.gif' | relative_url }}" class="snapshot snap-right" style="max-width: 250px;">
