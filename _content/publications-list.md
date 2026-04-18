@@ -3,6 +3,7 @@ layout: default
 title: About
 ...
 ---
+<img src="{{ '/assets/images/miipencilorange.png' | relative_url }}" class="snapshot snap-left">
 # Academic
 ## Journal Articles
 ### 2026
