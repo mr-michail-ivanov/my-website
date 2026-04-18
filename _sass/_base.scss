@@ -126,18 +126,15 @@ strong em, em strong {
 }
 /* Random Photograph Styles (Border-Free Snapshots) */
 .snapshot {
-  max-width: 250px;    /* Keeps the image small */
+  max-width: 500px;
+  width: 100%;         /* Ensures it scales down on smaller screens */
   height: auto;
   margin: 1rem;
   display: inline-block;
-  /* Visual flair removed for a cleaner look */
   background: transparent;
   border: none;
-  box-shadow: none; 
-/* Prevents the 'save as' menu and dragging the image to the desktop */
-  pointer-events: none; 
-  -webkit-touch-callout: none; /* Prevents long-press save on mobile */
-  user-select: none;
+  box-shadow: none;
+  pointer-events: none; /* The right-click protection */
 }
 
 /* Floating logic to make text wrap around images */
