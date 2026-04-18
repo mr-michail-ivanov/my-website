@@ -134,6 +134,10 @@ strong em, em strong {
   background: transparent;
   border: none;
   box-shadow: none; 
+/* Prevents the 'save as' menu and dragging the image to the desktop */
+  pointer-events: none; 
+  -webkit-touch-callout: none; /* Prevents long-press save on mobile */
+  user-select: none;
 }
 
 /* Floating logic to make text wrap around images */
