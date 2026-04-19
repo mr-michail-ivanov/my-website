@@ -34,3 +34,17 @@ Babie, P., Burdon, P., Ivanov, M., & Shrestha, N. (2025). Torrens for the Twenty
 
 Babie, P. Plater, D. Washusen, B. Villios, S. Brunacci, A. Williams, J. Burdon, P. Ivanov, M. McAskill, K. Caprile, A. Portelli, T. Neumann, M. (2025). ‘A Lasting Boon Upon the Australian People’: A Review of the Role and Operation of the Real Property Act 1886 (20). Adelaide, SA: South Australian Law Reform Institute.  
 [Available here](https://hdl.handle.net/2440/147768)
+
+
+# Notable Media Appearances and Mentions
+
+15 October 2025, Janine Cyren Escasura, ['A Decade Later, Why Does the *Marsh v Baxter* Case Still Matter?](https://www.isaaa.org/blog/entry/default.asp?BlogDate=10/15/2025)' (Science Speaks, ISAAA)
+
+
+29 September 2025, 3WM, [Country Today](https://3wm.com.au/shows/country-today/) with Libby Price, Interview with Jade Egan (mp3 [available here](https://6b8m1.omnycontent.com/organization-820f09cf-2ace-4180-a92d-aa4c0008f5fb-private/programs/63be54f4-43e9-4568-b610-b1c60170e1fd/clips/ebc67abe-5e3c-47f6-be44-b367001f9e0b/published.mp3?sv=2021-08-06&se=2026-05-03T13%3A32%3A06Z&si=private&sr=b&rscd=attachment;%20filename%3D%22Country%20Today%20-%20September%2029th.mp3%22&sig=HKYax8N%2BZbFIMOmlp3G0Yq4MvpEk9RCGAjjFu3nRZSk%3D&in_playlist=b738c89a-0b9c-4be5-8f80-b1c601719381&embeddedUrl=https%3A%2F%2F3wm.com.au%2F&utm_source=Embed))
+
+
+6 June 2025, '[Monogamy: Is it still the gold standard of intimate relationships?](https://www.abc.net.au/listen/programs/godforbid/monogamy-what-is-it-good-for/105335334)', Interview with James Carleton on ABC Radio National's *God Forbid*
+
+
+30 Match 2025, Tory Shepherd, '[Two may be company, but for a rising number of Australians, three (or more) isn’t a crowd](https://www.theguardian.com/lifeandstyle/2025/mar/30/two-may-be-company-but-for-a-rising-number-of-australians-three-or-more-isnt-a-crowd)' (The Guardian)
