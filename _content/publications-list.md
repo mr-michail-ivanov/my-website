@@ -7,6 +7,9 @@ title: Publications
 # Academic
 ## Journal Articles
 ### 2026
+Babie, P. T., Ivanov, M., & Burdon, P. (2026). ""A Lasting Boon Upon the South Australian People": Reforming the *Real Property Act 1886* (SA). *Australian Law Journal*, 100(4), 260-265.
+
+
 Lopes, E., Ankeny, R., Santos, D., Hu, M., Whitton, T., Ivanov, M., . . . Wells, C. (2026). Exploring Patient Organization Involvement in Stem Cell Research: Insights from the Lifeworld. *Journal of Bioethical Inquiry*, 15 pages.  
 DOI: [https://doi.org/10.1007/s11673-025-10516-6](https://doi.org/10.1007/s11673-025-10516-6)
 
